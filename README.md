@@ -1,2 +1,13 @@
 # InfoXy
-Um site homepage feito com HTML, CSS e JavaScript, com informações sobre a galáxia
+![Logo](./assets/images/logo_icon.png)
+
+Um projeto de site homepage para implementação no portifólio, com informações sobre a galáxia. Fazendo testes com o uso de Paralax e pesquisas para trazer conteúdos verídicos sobre alguns aspéctos do universo de uma maneira mais leve e descontraída.
+
+
+## Author
+- [@Vitoria](https://github.com/vitoriaGoncalves08)
+
+     
+## Tech Stack
+
+**Front-end:** HTML, CSS e JavaScript.
