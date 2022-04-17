@@ -10,5 +10,7 @@ Um projeto de site homepage para implementação no portifólio, com informaçõ
 
      
 ## Tech Stack
-
 **Front-end:** HTML, CSS e JavaScript.
+     
+## Images License
+**<a href='https://www.freepik.com/vectors/cliff'>Cliff vector created by upklyak - www.freepik.com</a>
