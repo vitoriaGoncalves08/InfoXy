@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/planet_icon.ico" type="image/x-icon">
+    <title>InfoXy</title>
+</head>
+    <body>
+        <header>
+            <a href="#" class="logo">InfoXy</a>
+            <ul>
+                <li><a href="#" class="active_home">Home</a></li>
+                <li><a href="#">System</a></li>
+                <li><a href="#">Moon</a></li>
+                <li><a href="#">Aliens</a></li>
+                <li><a href="#">Moon</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="./assets/images/estrelas.png" alt="stars" id="stars">
+            <img src="./assets/images/lua.png" alt="moon" id="moon">
+            <h2 id="title_home">Universe</h2>
+            <a href="#sec" id="btn">Explore</a>
+            <img src="/assets/images/mountains_behind.png" alt="montains_behind" id="montains_behind">
+            <img src="/assets/images/mountains_front.png" alt="montains_front" id="montains_front">
+        </section>
+        <div class="sec" id="sec">
+            <h2>Paralax</h2>
+            <p>Um site homepage feito com HTML, CSS e JavaScript, com informações sobre a galáxia Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet veritatis rem dignissimos molestiae, maxime quasi nostrum sint facere voluptatibus inventore temporibus nobis assumenda dolores ad. Dicta aut libero dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nisi aperiam quam autem earum optio consectetur aliquam assumenda voluptas nemo iste. Esse ducimus nostrum perspiciatis id fuga molestiae. Veniam, laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, optio! Tempora amet ipsam voluptatibus hic qui consectetur vitae quas expedita sunt tempore, iste, vel voluptates fugiat quo nisi soluta! Neque!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi enim aperiam repellendus sequi pariatur vel a delectus earum, molestiae doloremque ea voluptatem illo maiores dolore reprehenderit ipsa voluptas ullam? Repellendus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident minima, cupiditate ab sed corporis animi illo explicabo iste eius aspernatur? Sint natus tenetur consectetur fugiat facilis nemo quidem! Maxime, nam.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet veritatis rem dignissimos molestiae, maxime quasi nostrum sint facere voluptatibus inventore temporibus nobis assumenda dolores ad. Dicta aut libero dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nisi aperiam quam autem earum optio consectetur aliquam assumenda voluptas nemo iste. Esse ducimus nostrum perspiciatis id fuga molestiae. Veniam, laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, optio! Tempora amet ipsam voluptatibus hic qui consectetur vitae quas expedita sunt tempore, iste, vel voluptates fugiat quo nisi soluta! Neque!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi enim aperiam repellendus sequi pariatur vel a delectus earum, molestiae doloremque ea voluptatem illo maiores dolore reprehenderit ipsa voluptas ullam? Repellendus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident minima, cupiditate ab sed corporis animi illo explicabo iste eius aspernatur? Sint natus tenetur consectetur fugiat facilis nemo quidem! Maxime, nam.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet veritatis rem dignissimos molestiae, maxime quasi nostrum sint facere voluptatibus inventore temporibus nobis assumenda dolores ad. Dicta aut libero dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nisi aperiam quam autem earum optio consectetur aliquam assumenda voluptas nemo iste. Esse ducimus nostrum perspiciatis id fuga molestiae. Veniam, laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, optio! Tempora amet ipsam voluptatibus hic qui consectetur vitae quas expedita sunt tempore, iste, vel voluptates fugiat quo nisi soluta! Neque!</p>
+        </div>
+
+        <div class="test" id="test">
+            <h2>Paralax</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet veritatis rem dignissimos molestiae, maxime quasi nostrum sint facere voluptatibus inventore temporibus nobis assumenda dolores ad. Dicta aut libero dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nisi aperiam quam autem earum optio consectetur aliquam assumenda voluptas nemo iste. Esse ducimus nostrum perspiciatis id fuga molestiae. Veniam, laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, optio! Tempora amet ipsam voluptatibus hic qui consectetur vitae quas expedita sunt tempore, iste, vel voluptates fugiat quo nisi soluta! Neque!<br><br></p>
+        </div>
+
+        <script>
+            let stars = document.getElementById('stars');
+            let moon = document.getElementById('moon');
+            let montains_behind = document.getElementById('montains_behind');
+            let title_home = document.getElementById('title_home');
+            let btn = document.getElementById('btn');
+            let montains_front = document.getElementById('montains_front');
+            let header = document.querySelector('header');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px';
+                moon.style.top = value * 1.05 + 'px';
+                montains_behind.style.top = value * 0.05 + 'px';
+                montains_front.style.top = value * 0 + 'px';
+                title_home.style.marginRight = value * 5 + 'px';
+                title_home.style.marginTop = value * 1.5 + 'px';
+                btn.style.marginTop = value * 1.5 + 'px';
+                header.style.top = value * 0.5 + 'px';
+            })
+        </script>
+    </body>
+</html>
