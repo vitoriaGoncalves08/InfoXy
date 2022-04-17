@@ -1,5 +1,6 @@
-# InfoXy
-![Logo](./assets/images/planets_icon.ico) 
+![Logo](./public/img/vectors/logo9.png)
+# INFOXY
+
 
 Um projeto de site homepage para implementação no portifólio, com informações sobre a galáxia. Fazendo testes com o uso de Paralax e pesquisas para trazer conteúdos verídicos sobre alguns aspéctos do universo de uma maneira mais leve e descontraída.
 
