@@ -1,4 +1,4 @@
-![Logo](./assets/images/logo_icon.png)
+![Logo](./assets/images/planet_icon.ico)
 # INFOXY
 
 
