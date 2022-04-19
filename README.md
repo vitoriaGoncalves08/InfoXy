@@ -14,3 +14,6 @@ Um projeto de site homepage para implementação no portifólio, com informaçõ
      
 ## Images License
 **Cliff vector created by upklyak** - <a href='www.freepik.com'</a>
+
+## Link
+- [INFOXY🔥🌌](https://vitoriagoncalves08.github.io/InfoXy/)
