@@ -64,6 +64,8 @@ header ul li a.active_home{
   background: #fff;
   color: #2b1055;
 }
+
+/* SECTION */
 section {
     position: relative;
     width: 100%;
@@ -182,11 +184,14 @@ section img#montains_front {
 }
 
 /* SYSTEM */
+
 .system{
   background: linear-gradient(to bottom, #1c0522, #110214); 
-  height: 180vh;
-  padding: 2rem 6.25rem 7rem 6.25rem;
-  
+  width: 100%;
+  padding: 2rem 6.25rem 5rem 6.25rem;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
 }
 .system h2{
   width: max-content;
@@ -202,10 +207,22 @@ section img#montains_front {
   font-size: 1.2em;
   color: rgb(214, 213, 213);
   text-align: justify;
-  margin-bottom: 9em;
+}
+.keep{
+  text-align: center;
+  color: rgb(141, 141, 141);
+  font-weight: 200;
+  margin-bottom: 5.1rem;
+  margin-top: 4rem;
+  font-size: 1.2em;
 }
 
 /* SOLAR SYSTEM */
+.cont_sys{
+  background-image: url(/assets/images/stars.png);
+  background-color: #110214;
+  height: 110vh;
+}
 #solar_system{
   position: relative;
   width: 150px;
@@ -218,12 +235,12 @@ section img#montains_front {
   height: 100%;
 
   transform-style: preserve-3d;
-  transition: all 5s ease;
-  
+  transition: all 5s ease-in-out;
 }
 #solar_system:hover .area{
   transform: rotateZ(360deg);
-}
+} 
+
 .solar{
   position: absolute;
   width: 100%;
@@ -234,11 +251,11 @@ section img#montains_front {
   margin: 0 auto;
 }
 /* .sun{
-  
-} */
+  position: absolute;
+}  */
 .mercurio{
   margin-top: 10rem;
-  box-shadow: #1C0522;
+  box-shadow: #1C0522; 
 }
 .venus{
   margin-top: 13rem;
