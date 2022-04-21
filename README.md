@@ -13,7 +13,7 @@ Um projeto de site homepage para implementação no portifólio, com informaçõ
 **Front-end:** HTML, CSS e JavaScript.
      
 ## Images License📸
-**Cliff vector created by upklyak** - <a href='www.freepik.com'></a>
+**Cliff vector created by upklyak** - <a href='www.freepik.com'/>
 
 ## Link🔥🌌
 - [INFOXY](https://vitoriagoncalves08.github.io/InfoXy/)
