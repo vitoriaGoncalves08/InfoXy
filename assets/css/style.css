@@ -221,7 +221,8 @@ section img#montains_front {
 .cont_sys{
   background-image: url(/assets/images/stars.png);
   background-color: #110214;
-  height: 110vh;
+  height: 130vh;
+  z-index: 10;
 }
 #solar_system{
   position: relative;
@@ -278,3 +279,58 @@ section img#montains_front {
 .netuno{
   margin-top: 39rem;
 }
+
+/* Aliens */
+#aliens{
+  display: flex;
+  padding: 6.25rem;
+  background-color: #110214;
+  padding-top: 9rem;
+  
+}
+.aliens_left h3{
+  color: #734bb4;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 3px;
+}
+.aliens_left h2{
+  color: rgb(219, 219, 219);
+  font-size: 2em;
+}
+.aliens_left p{
+  color: rgb(107, 107, 107);
+  text-align: justify;
+}
+.aliens_right{
+  display: flex;
+  padding-right: 5rem;
+}
+
+.aliens_right .aliens_nave{
+  mix-blend-mode: screen;
+  animation-delay: 2s;
+
+  transform-style: preserve-3d;
+  transition: all 8s ease-in-out;
+}
+#aliens:hover .aliens_nave{
+  transform: rotateZ(20deg);
+} 
+
+.aliens_right .aliens_astro{
+  mix-blend-mode: screen;
+
+  transform-style: preserve-3d;
+  transition: all 16s ease;
+}
+#aliens:hover .aliens_astro{
+  transform: rotateZ(-10deg);
+} 
+.aliens_right .aliens_alien{
+  transform-style: preserve-3d;
+  transition: all 5s ease;
+}
+#aliens:hover .aliens_alien{
+  transform: rotateY(-25deg);
+} 
